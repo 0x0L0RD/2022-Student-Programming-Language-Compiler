@@ -1,0 +1,26 @@
+main {
+	abc1234 := 233;
+	b := 5; 
+	c := "THIS IS 341";
+	d :=                     -1;
+
+	if (larger(mult(abc1234,b),d)) then {
+    		do {
+	  		b := add(b,1);
+	  		output := b;
+		} until (eq(abc1234,b));
+	
+	} 
+	else {
+			c := "W BABY";
+		};
+
+	output := add(abc1234,b);
+	output := c;
+
+	halt;
+	num abc1234;
+	num b;
+	string c;
+	num d;
+}

@@ -1,0 +1,27 @@
+proc start { 
+variable [4] := -5;
+variable [int]:=0;
+variable[ccc] := ccc;
+variable[ccc] := input(cdc);
+variable[ccc] := add(ccc,4);
+varible[cdc] := add(4,4);
+variable[cdc] := sub(5,2);
+variable[3] := mult(10,2);
+variable[cdc] := mult(mult(12,16),add(3,33));
+variable[cdc] := add(mult(4,-34),add(-10,200));
+variable[cdc] := sub(mult(3,3),add(2,3));
+output := "POES";
+fuck := false;
+if(false)then{}
+else
+{};
+while(true)do{};
+
+do{variable[cdc] := sub(10,10);} until(true);
+
+return;   
+
+arr num[2] variable; num int; num ccc; num cdc;
+arr num[2] varible; bool fuck;
+},main
+{call start; halt;}

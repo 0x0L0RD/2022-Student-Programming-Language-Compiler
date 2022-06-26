@@ -1,0 +1,48 @@
+proc proc1{
+    a := 400;
+    b := -1000;
+    word := "NOT END";
+    do {
+      output := a;
+      output := word;
+      a := mult(a,-2);
+      a := sub(a,1);
+    }
+    until (not(larger(a,b)));
+
+    word := "IS END";
+
+    output := word;
+
+    convoluted := not(not(and(and(larger(90,20),eq(3,4)),and(or(not(false),true),true))));
+
+    if (convoluted) then {
+        word:= "TRUE";
+    }
+    else{
+        word:= "FALSE";
+    };
+
+    output:= word;
+
+    return;
+    num a;
+    string word;
+    num b;
+    bool convoluted;
+},
+main{
+    a := false;
+    b := false;
+
+    a := and(not(a),not(b));
+    if(not(not(a)))then{
+        call proc1;
+    }else{
+        output := "H2";
+    };
+
+    halt;
+    bool a;
+    bool b;
+}

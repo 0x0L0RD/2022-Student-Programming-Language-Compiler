@@ -1,0 +1,13 @@
+proc strings{ 
+ call other;
+ return; 
+ },
+ proc other{
+ you := "K 09";
+ return;
+ } 
+ ,main { 
+ if(true) then {
+ output := this[you];
+ x := -45; };
+ halt;}
